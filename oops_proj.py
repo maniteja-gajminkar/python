@@ -3,7 +3,7 @@ class chatbook:
         self.username = ''
         self.password = ''
         self.loggedin = False
-        self.menu()
+        #self.menu()
  #self.loggedin → an attribute of the object,False → initial value, meaning the user is not logged in yet       
 #Why do we use self.menu() inside attributes/__init__() of a class?
 #Because we often want certain methods to run immediately when the object is created — like showing a welcome screen or setting things up.        
@@ -88,6 +88,13 @@ class chatbook:
 
 
         
-
-user1 = chatbook()
+if __name__ == "__main__":
+    user1 = chatbook()  # Only runs when this file is executed directly
+# if __name__ == "__main__": 
+# So it only runs when oops_proj.py is executed directly.
 #basic structure is ready
+# __name__ is a special variable in Python.
+# When a file is run directly, __name__ becomes "__main__".
+# When the same file is imported in another script, __name__ becomes the module name.
+# This allows us to control what runs directly vs. what runs on import.
+

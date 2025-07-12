@@ -60,13 +60,18 @@ Employee-class
  
  
  1.end to end project
+fucntion vs method
+ magic method and dunder method
+ self
+ we can create atrtibute out side of the class also
+ 
+ 
  2.encapsulation
  3.getter and setter
  4.static method
+
+ ----
  
  
- 
- 
- 
- 
+
  
