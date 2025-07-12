@@ -27,6 +27,28 @@ Employee-class
  #What is __init__()?,It’s called a constructor.Runs automatically when you create an object.
 
 ##It’s used to initialize the object’s data,When you create an object, __init__() sets up the values you want that object to start with.
+ ----
+  class and obj
+ class has atribute/data and func/methods
+ 
+ ----
+ if a function defined in class its called method but technically its a a func
+ 
+ #What is __init__()?,It’s called a constructor.Runs automatically when you create an object.
+
+##It’s used to initialize the object’s data,When you create an object, __init__() sets up the values you want that object to start with.
+ 
+ ----
+ everything in python is object(datastructure, datatype)----
+ advantages of oops:
+ we can create our own data type
+ code reusablillity
+ debugging
+ easy to collab
+ 
+ ""' hi how are you ""'(mlti line comments are written like this)
+ 
+ 
  
  ----
  everything in python is object(datastructure, datatype)----
