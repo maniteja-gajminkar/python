@@ -1,5 +1,10 @@
 class chatbook:
+    __user_id = 1
+
     def __init__(self):
+        self.id = chatbook.__user_id #here values to use declared outside we need to use with class,whihc are static values/methods
+        chatbook.__user_id +=1
+        self.__name = "Default User"
         self.username = ''
         self.password = ''
         self.loggedin = False
@@ -8,6 +13,22 @@ class chatbook:
 #Why do we use self.menu() inside attributes/__init__() of a class?
 #Because we often want certain methods to run immediately when the object is created — like showing a welcome screen or setting things up.        
 #You are calling the menu() method from inside the constructor (__init__()), during object creation
+    @staticmethod #static method wil use dirctly from class
+    def get_id():
+        return chatbook.__user_id
+    #Note static method doesnt required object means it doesn't required self
+    @staticmethod
+    def set_id(val):
+        chatbook.__user_id = val
+
+    def get_name(self): #getter
+        return self.__name
+    
+    def set_name(self, value): #setter
+        self.__name = value
+    
+        
+
     def menu(self):
         user_input = input("""welcome to chatbook, how wouldu like to procedd? 
                             1. press 1 to signup

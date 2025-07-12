@@ -65,13 +65,16 @@ fucntion vs method
  self
  we can create atrtibute out side of the class also
  
+
  
  2.encapsulation
- 3.getter and setter
+ 3.getter and setter () to get the name/values and to set the name or values)
  4.static method
 
  ----
  
  
 
- 
+ to hide valueswe will give __ (double underscore)
+ ex:self.__name = "Default User"
+ to call that we should give obj._<classname>__name but still its not fuly protected like java
