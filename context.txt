@@ -79,3 +79,18 @@ fucntion vs method
  to hide valueswe will give __ (double underscore)
  ex:self.__name = "Default User"
  to call that we should give obj._<classname>__name but still its not fuly protected like java
+
+ ----
+
+ Inheritance:
+ why Inheritance(code reusablillity),child class can access parent class, but a[rent clas cannot access child class]
+ what can be inherited(constructir, non private attributes,non private methods)
+ constructor overloading & method overloading
+ super keyword(can be used onl inside class, can not access varibales/attributes,used only inside child class)
+super can be calle donly in child class
+ types of inheritance:
+ 1.single inheritance
+ 2.multilevel inheritance
+ 3.hierarchichal inheritance
+ 4.multilevel inheritance
+ 5.Hybrid inheritance
