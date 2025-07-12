@@ -37,7 +37,10 @@ Employee-class
  easy to collab
  
  
- 
+ 1.end to end project
+ 2.encapsulation
+ 3.getter and setter
+ 4.static method
  
  
  
